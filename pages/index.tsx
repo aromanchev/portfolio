@@ -19,6 +19,7 @@ export default function Home() {
         <meta name="author" content="Artur Romanchev" />
         <meta property="og:title" content="Artur Romanchev - Developer" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:site_name" content="Artur Romanchev" />
         <meta
           property="og:description"
