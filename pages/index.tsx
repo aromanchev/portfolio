@@ -19,7 +19,7 @@ export default function Home() {
           property="og:description"
           content="Frontend Developer, Software Engineer, Blockchain Developer."
         />
-        <meta property="og:image" content="/portfolio-img.jpg" />
+        <meta property="og:image" content="/meta-img.jpg" />
         <meta property="og:url" content="aromanchev.com" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
