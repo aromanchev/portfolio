@@ -8,22 +8,23 @@ export default function Home() {
     <>
       <Head>
         <title>Artur Romanchev</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Artur Romanchev Software Engineer" />
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="keywords"
           content="React Engineer, Software Engineer, JavaScript Engineer, Frontend, ReactJS"
         />
         <meta name="author" content="Artur Romanchev" />
-        <meta property="og:title" content="Artur Romanchev" />
+        <meta property="og:title" content="Artur Romanchev - Developer" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Artur Romanchev" />
         <meta
           property="og:description"
           content="Frontend Developer, Software Engineer, Blockchain Developer."
         />
         <meta property="og:image" content="/meta-img.jpg" />
-        <meta property="og:url" content="aromanchev.com" />
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Introduce />
