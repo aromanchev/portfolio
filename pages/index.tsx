@@ -25,6 +25,8 @@ export default function Home() {
           content="Frontend Developer, Software Engineer, Blockchain Developer."
         />
         <meta property="og:image" content="/meta-img.jpg" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
       </Head>
       <main>
         <Introduce />
