@@ -31,3 +31,11 @@
         stroke: #000;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .themeChanger {
+        &:hover {
+            border: 2px solid transparent;
+        }
+    }
+}
