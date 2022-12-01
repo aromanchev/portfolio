@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
 
 .light-theme {
-  background-color: #fff;
+  background-color: #f9fafb;
   color: #000;
   & body {
     color: #000;
-    background-color: #fff
+    background-color: #f9fafb
   }
   & svg {
     & path {
