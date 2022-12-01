@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Introduce, About, Projects } from "../blocks";
 import { WorkExperience } from "../blocks/work-experience";
 import { Footer } from "../components";
+import { ThemeChanger } from "../components/theme-changer";
 
 export default function Home() {
   return (
@@ -26,10 +27,9 @@ export default function Home() {
           content="Frontend Developer, Software Engineer, Blockchain Developer."
         />
         <meta property="og:image" content="/meta-img.png" />
-        {/* <meta property="og:image:width" content="300" /> */}
-        {/* <meta property="og:image:height" content="300" /> */}
       </Head>
       <main>
+        <ThemeChanger />
         <Introduce />
         <About />
         <WorkExperience />
