@@ -29,7 +29,12 @@ export const ThemeChanger = () => {
     }
   }, [theme]);
   return (
-    <button className={classes} onClick={handleChangeTheme}>
+    <button
+      className={classes}
+      onClick={handleChangeTheme}
+      aria-label="Theme changer"
+      id="themeChanger"
+    >
       {theme === "light" ? <MoonIcon /> : <LightIcon />}
     </button>
   );

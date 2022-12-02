@@ -6,7 +6,11 @@ export const Footer = () => (
   <footer className={styles.footer}>
     <ul className={styles.social}>
       <li>
-        <Link href="https://github.com/aromanchev" target="_blank">
+        <Link
+          aria-label="Github profile"
+          href="https://github.com/aromanchev"
+          target="_blank"
+        >
           <GithubIcon />
         </Link>
       </li>
@@ -20,7 +24,11 @@ export const Footer = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://t.me/aromanchevv" target="_blank">
+        <Link
+          aria-label="Telegram profile"
+          href="https://t.me/aromanchevv"
+          target="_blank"
+        >
           <TelegramIcon />
         </Link>
       </li>
